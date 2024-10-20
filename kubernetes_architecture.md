@@ -23,7 +23,7 @@ Tools like Fluentd or Logstash may be installed to collect and aggregate logs fr
 ### Networking: 
 Each worker node must be connected to the cluster network to facilitate communication with other nodes and components.
 
-> These components work together to ensure that the applications deployed in the Kubernetes cluster are running smoothly and can scale as needed.
+> **These components work together to ensure that the applications deployed in the Kubernetes cluster are running smoothly and can scale as needed.**
 
 # Control plane
 
@@ -47,4 +47,4 @@ This component interacts with cloud provider APIs to manage resources specific t
 ### Admission Controllers: 
 These are plugins that govern and enforce how the API server handles requests. They can be used for various purposes, such as validating or mutating incoming requests.
 
-> Together, these components ensure that the cluster is running efficiently, applications are deployed correctly, and the overall system state matches the desired configuration.
+> **Together, these components ensure that the cluster is running efficiently, applications are deployed correctly, and the overall system state matches the desired configuration.**
